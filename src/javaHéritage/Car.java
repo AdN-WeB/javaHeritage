@@ -8,7 +8,7 @@ public class Car extends Vehicle {
 	}
 	
 	public String doStuff() {
-		return "Je suis " + brand + " et je roule comme un papy";
+		return "Je suis " + getBrand() + " et je roule comme un papy";
 	}
 
 }

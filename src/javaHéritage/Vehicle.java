@@ -3,8 +3,8 @@ package javaHéritage;
 public abstract class Vehicle {
 	
 	//Initialized attributes
-	String brand;
-	int kilometers;
+	private String brand;
+	private int kilometers;
 	//Constructor for vehicle 
 	public Vehicle (String brand, int kilometers) {
 		this.brand = brand;

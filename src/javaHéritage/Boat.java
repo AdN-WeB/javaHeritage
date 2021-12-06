@@ -9,7 +9,7 @@ public class Boat extends Vehicle {
 	}
 	
 	public String doStuff() {
-		return "Je suis " + brand + " et je vogue à travers les eaux";
+		return "Je suis " + getBrand() + " et je vogue à travers les eaux";
 	}
 
 }
